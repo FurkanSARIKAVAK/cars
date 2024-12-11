@@ -145,6 +145,15 @@
 }
 
 @media (max-width: 768px) {
+
+  .logo img {
+    height: 40px;
+    margin: 10px 10px;
+  }
+
+  .nav-links li a {
+    font-size: 15px;
+  }
   .container-1, .container-2, .container-3 {
       flex-direction: column;
       align-items: center;
